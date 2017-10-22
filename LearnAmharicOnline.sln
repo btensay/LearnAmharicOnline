@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{EEF898D8-9524-407C-A49B-1F77B5CBC30E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAmharicOnline.Core", "LearnAmharicOnline.Core\LearnAmharicOnline.Core.csproj", "{65734E27-F4F2-46C5-AB4C-2F54447CE40B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAmharicOnline.Data", "LearnAmharicOnline.Data\LearnAmharicOnline.Data.csproj", "{34DE574B-C25E-4700-A14F-9473FE037959}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2FA15F3E-72D6-4A84-B5C0-74CBC6FB66F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F74B2E2B-2803-47D3-942D-C6A36121BCF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAmharicOnline.Admin", "LearnAmharicOnline.Admin\LearnAmharicOnline.Admin.csproj", "{4D4DBFE4-6F04-410C-93A7-1502ED8AA774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAmharicOnline.Web", "LearnAmharicOnline.Web\LearnAmharicOnline.Web.csproj", "{35CD8393-E718-4EA2-A57F-0CF51C80231D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAmharicOnline.Services", "LearnAmharicOnline.Services\LearnAmharicOnline.Services.csproj", "{EC842F0A-5BEB-4D48-99BA-B02A2BE5F682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAmharicOnline.Core.Tests", "LearnAmharicOnline.Core.Tests\LearnAmharicOnline.Core.Tests.csproj", "{E2D3851F-D6CB-48FA-8CD8-A7F5D2695B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAmharicOnline.Admin.Tests", "LearnAmharicOnline.Admin.Tests\LearnAmharicOnline.Admin.Tests.csproj", "{A7BC580D-074E-4856-9554-422C7AA1B100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAmharicOnline.Tests", "LearnAmharicOnline.Tests\LearnAmharicOnline.Tests.csproj", "{BA92947A-F49E-4EBB-9F05-05ADD8A59B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAmharicOnline.Web.Tests", "LearnAmharicOnline.Web.Tests\LearnAmharicOnline.Web.Tests.csproj", "{F2C30D9B-E13D-4D5D-A0E2-08019048CF83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65734E27-F4F2-46C5-AB4C-2F54447CE40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65734E27-F4F2-46C5-AB4C-2F54447CE40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65734E27-F4F2-46C5-AB4C-2F54447CE40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65734E27-F4F2-46C5-AB4C-2F54447CE40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DE574B-C25E-4700-A14F-9473FE037959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DE574B-C25E-4700-A14F-9473FE037959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DE574B-C25E-4700-A14F-9473FE037959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DE574B-C25E-4700-A14F-9473FE037959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4DBFE4-6F04-410C-93A7-1502ED8AA774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4DBFE4-6F04-410C-93A7-1502ED8AA774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4DBFE4-6F04-410C-93A7-1502ED8AA774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4DBFE4-6F04-410C-93A7-1502ED8AA774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CD8393-E718-4EA2-A57F-0CF51C80231D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CD8393-E718-4EA2-A57F-0CF51C80231D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CD8393-E718-4EA2-A57F-0CF51C80231D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CD8393-E718-4EA2-A57F-0CF51C80231D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC842F0A-5BEB-4D48-99BA-B02A2BE5F682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC842F0A-5BEB-4D48-99BA-B02A2BE5F682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC842F0A-5BEB-4D48-99BA-B02A2BE5F682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC842F0A-5BEB-4D48-99BA-B02A2BE5F682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D3851F-D6CB-48FA-8CD8-A7F5D2695B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D3851F-D6CB-48FA-8CD8-A7F5D2695B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D3851F-D6CB-48FA-8CD8-A7F5D2695B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D3851F-D6CB-48FA-8CD8-A7F5D2695B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BC580D-074E-4856-9554-422C7AA1B100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BC580D-074E-4856-9554-422C7AA1B100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BC580D-074E-4856-9554-422C7AA1B100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BC580D-074E-4856-9554-422C7AA1B100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA92947A-F49E-4EBB-9F05-05ADD8A59B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA92947A-F49E-4EBB-9F05-05ADD8A59B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA92947A-F49E-4EBB-9F05-05ADD8A59B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA92947A-F49E-4EBB-9F05-05ADD8A59B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C30D9B-E13D-4D5D-A0E2-08019048CF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C30D9B-E13D-4D5D-A0E2-08019048CF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C30D9B-E13D-4D5D-A0E2-08019048CF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C30D9B-E13D-4D5D-A0E2-08019048CF83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65734E27-F4F2-46C5-AB4C-2F54447CE40B} = {EEF898D8-9524-407C-A49B-1F77B5CBC30E}
+		{34DE574B-C25E-4700-A14F-9473FE037959} = {EEF898D8-9524-407C-A49B-1F77B5CBC30E}
+		{4D4DBFE4-6F04-410C-93A7-1502ED8AA774} = {F74B2E2B-2803-47D3-942D-C6A36121BCF7}
+		{35CD8393-E718-4EA2-A57F-0CF51C80231D} = {F74B2E2B-2803-47D3-942D-C6A36121BCF7}
+		{EC842F0A-5BEB-4D48-99BA-B02A2BE5F682} = {EEF898D8-9524-407C-A49B-1F77B5CBC30E}
+		{E2D3851F-D6CB-48FA-8CD8-A7F5D2695B33} = {2FA15F3E-72D6-4A84-B5C0-74CBC6FB66F6}
+		{A7BC580D-074E-4856-9554-422C7AA1B100} = {2FA15F3E-72D6-4A84-B5C0-74CBC6FB66F6}
+		{BA92947A-F49E-4EBB-9F05-05ADD8A59B96} = {2FA15F3E-72D6-4A84-B5C0-74CBC6FB66F6}
+		{F2C30D9B-E13D-4D5D-A0E2-08019048CF83} = {2FA15F3E-72D6-4A84-B5C0-74CBC6FB66F6}
+	EndGlobalSection
+EndGlobal
